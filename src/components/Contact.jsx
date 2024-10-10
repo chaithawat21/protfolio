@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
     return (
-        <section id="Contact" className='flex flex-col gap-[1rem] px-[4rem] pt-[5rem] pb-[20rem] sm:pb-[5rem] bg-hero-pattern bg-bottom bg-contain bg-no-repeat '>
+        <section id="Contact" className='flex flex-col gap-[1rem] px-[4rem] pt-[5rem] pb-[30rem] md:pb-[20rem] sm:pb-[20rem] bg-hero-pattern bg-bottom bg-cover bg-no-repeat '>
             <h1 className='text-[2rem] font-[500] text-center pb-[5rem]'>CONTACT</h1>
             <div className='flex flex-row md:flex-col sm:flex-col justify-between md:justify-center sm:justify-center items-center md:gap-[2rem] sm:gap-[2rem] pb-[8rem] '>
                 <div className='flex flex-col  gap-[4rem] md:gap-[1rem] sm:gap-[1rem]'>
