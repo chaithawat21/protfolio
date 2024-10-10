@@ -7,9 +7,13 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('/src/assets/BG.JPG')",
+        'hero-pattern': "url('/src/assets/bg01.png')",
 
-      }
+      },
+      screens: {
+        'sm': {'max':'450px'},
+        'md': {'min':'451px','max':'768px'}
+      },
     },
   },
   plugins: [],

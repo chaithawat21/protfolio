@@ -4,18 +4,19 @@ import Project from './components/Project';
 import About from './components/About';
 import Contact from './components/Contact';
 import Header from './components/Header';
-import ReactPlayer from 'react-player'
 
 function App() {
   return (
-    <div className='bg-gray-100'>
-
-
+    <div  >
       <Header />
-      <Home />
-      <Project/>
-      <About />
-      <Contact />
+      <main>
+        <Home />
+        <Project />
+        <About />
+      </main>
+      <footer>
+        <Contact />
+      </footer>
     </div>
   )
 }
