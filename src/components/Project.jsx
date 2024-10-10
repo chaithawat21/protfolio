@@ -3,10 +3,10 @@ import ReactPlayer from 'react-player'
 
 function Project() {
     return (
-        <section id="Projects" className="Projects flex flex-col justify-center items-center gap-4 px-[1rem]">
+        <section id="Projects" className="Projects flex flex-col justify-center items-center gap-4 px-[1rem] bg-gray-50">
             <h1 className='text-[2rem] font-[300] mt-[5rem]'>2024</h1>
 
-            <div className='grid grid-cols-[repeat(2,_1fr)] md:grid-cols-[1fr] sm:grid-cols-[1fr]  grid-rows-[1fr] md:grid-rows-[repeat(2,_1fr)] sm:grid-rows-[repeat(2,_1fr)]  gap-x-[1rem] gap-y-[0px] px-[0rem]' >
+            <div className='grid grid-cols-[repeat(2,_1fr)] md:grid-cols-[1fr] sm:grid-cols-[1fr]  grid-rows-[repeat(2,_1fr)] md:grid-rows-[repeat(3,_1fr)] sm:grid-rows-[repeat(3,_1fr)]  gap-x-[1rem] gap-y-[0px] px-[0rem]' >
                 <div>
                     <h2 >Isuzu - X-series 2024</h2>
                     <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] relative '>
@@ -22,13 +22,24 @@ function Project() {
                 <div className='grid grid-cols-[repeat(2,_1fr)] grid-rows-[repeat(2,_1fr)] gap-x-[0px] gap-y-[0px]  w-[560px] sm:w-[375px] sm:h-[210px] mt-[1.5rem]'>
                     <img src="/isuzu2024a01.png" alt="a01" />
                     <img src="/isuzu2024a02.png" alt="a02" />
+                    <img src="/isuzu2024b01.png" alt="b01" />
+                    <img src="/isuzu2024b02.png" alt="b02" />
+                    {/* <img src="/isuzu2024d02.png" alt="c02" />
+                    <img src="/isuzu2024d01.png" alt="c01" /> */}
+                    {/* <img src="/src/assets/isuzu2024c02.png" alt="c02" />
+                    <img src="/src/assets/isuzu2024c01.png" alt="c01" /> */}
+                </div>
+                <div className='grid grid-cols-[repeat(2,_1fr)] grid-rows-[repeat(2,_1fr)] gap-x-[0px] gap-y-[0px]  w-[560px] sm:w-[375px] sm:h-[210px] mt-[1.5rem]'>
+                    {/* <img src="/isuzu2024a01.png" alt="a01" />
+                    <img src="/isuzu2024a02.png" alt="a02" /> */}
                     {/* <img src="/src/assets/isuzu2024b01.png" alt="b01" />
                     <img src="/src/assets/isuzu2024b02.png" alt="b02" /> */}
                     <img src="/isuzu2024d02.png" alt="c02" />
                     <img src="/isuzu2024d01.png" alt="c01" />
-                    {/* <img src="/src/assets/isuzu2024c02.png" alt="c02" />
-                    <img src="/src/assets/isuzu2024c01.png" alt="c01" /> */}
+                    <img src="/isuzu2024c02.png" alt="c02" />
+                    <img src="/isuzu2024c01.png" alt="c01" />
                 </div>
+
             </div>
             <h1 className='text-[2rem] font-[300] mt-[5rem]'>2023</h1>
             <div className='grid grid-cols-[repeat(2,_1fr)] md:grid-cols-[1fr] sm:grid-cols-[1fr] grid-rows-[repeat(5,_1fr)] md:grid-rows-[repeat(10,_1fr)] sm:grid-rows-[repeat(10,_1fr)]  gap-x-[1rem] gap-y-[1rem]'>
@@ -45,10 +56,10 @@ function Project() {
                     </div>
                 </div>
                 <div className='grid grid-cols-[repeat(2,_1fr)] grid-rows-[repeat(2,_1fr)] gap-x-[0px] gap-y-[0px]   w-[560px] sm:w-[375px] sm:h-[210px] mt-[1.5rem]'>
-                    <img src="/src/assets/isuzu2023a01.jpg" alt="liveshoot-a" />
-                    <img src="/src/assets/isuzu2023b01.jpg" alt="liveshoot-b" />
-                    <img src="/src/assets/isuzu2023c01.jpg" alt="liveshoot-c" />
-                    <img src="/src/assets/isuzu2023d01.jpg" alt="liveshoot-d" />
+                    <img src="/isuzu2023a01.jpg" alt="liveshoot-a" />
+                    <img src="/isuzu2023b01.jpg" alt="liveshoot-b" />
+                    <img src="/isuzu2023e01.jpg" alt="liveshoot-c" />
+                    <img src="/isuzu2023d01.jpg" alt="liveshoot-d" />
                 </div>
                 <div>
                     <h2>OnePlus Open - Open for Everything</h2>

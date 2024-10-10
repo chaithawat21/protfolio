@@ -7,8 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('/src/assets/bg01.png')",
-
+        'hero-pattern': "url('/bg01.png')",
       },
       screens: {
         'sm': {'max':'450px'},

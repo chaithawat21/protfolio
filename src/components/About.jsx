@@ -2,9 +2,9 @@ import React from 'react'
 
 function About() {
     return (
-        <section id="About" className='p-[3rem]'>
-            <div className='flex flex-col justify-center items-center py-[4rem] '>
-            <a href="/src/assets/pdf/Resume_Chaithawat.pdf" download="Resume_Chaithawat.pdf" className='has-tooltip text-[2rem] font-[500] '><span className='tooltip  text-[.8rem] rounded shadow-sm p-1 bg-gray-100  mt-[0.8rem] ml-[7rem]'>Download PDF</span>RESUME</a>
+        <section id="About" className='p-[3rem] bg-gray-50 bg-gradient-to-b from-gray-50 to-white'>
+            <div className='flex flex-col justify-center items-center py-[4rem] " '>
+            <a href="/pdf/Resume_Chaithawat.pdf" download="Resume_Chaithawat.pdf" className='has-tooltip text-[2rem] font-[500] '><span className='tooltip  text-[.8rem] rounded shadow-sm p-1 bg-gray-100  mt-[0.8rem] ml-[7rem]'>Download PDF</span>RESUME</a>
             </div>
             <div className='flex flex-row md:flex-col sm:flex-col justify-between md:justify-start sm:justify-start gap-[1rem] py-[1rem] border-b-[1px] border-gray-500 '>
                 <h2>Work Experience</h2>
@@ -57,7 +57,7 @@ function About() {
                 <h2>Skills</h2>
                 <ul className='w-[30rem] md:w-full sm:w-full sm:text-[.8rem] list-disc'>
                     <li>Graphic Design (Photoshop, Illustrator)</li>
-                    <li>Video Editing & Color (Premiere Pro, DavVinci Resole)</li>
+                    <li>Video Editing & Color (Premiere Pro, DaVinci Resole)</li>
                     <li>Motion Graphics & Animation (After Effects, Nuke)</li>
                     <li>Web Design & UI/UX (Figma)</li>
                     <li>Visual Design</li>
