@@ -259,7 +259,7 @@ function Project() {
                     </div>
                 </div>
                 <div>
-                    <h2>BMW x UBR - BAVA Episode02</h2>
+                    <h2 className='sm:pl-[1rem]'>BMW x UBR - BAVA Episode02</h2>
                     <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] relative '>
                         <ReactPlayer
                             url="https://vimeo.com/598701917"
