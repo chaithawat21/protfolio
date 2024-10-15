@@ -7,7 +7,7 @@ import Header from './components/Header';
 
 function App() {
   return (
-    <div  >
+    <>
       <Header />
       <main>
         <Home />
@@ -17,7 +17,7 @@ function App() {
       <footer>
         <Contact />
       </footer>
-    </div>
+    </>
   )
 }
 

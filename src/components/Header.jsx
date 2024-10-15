@@ -31,11 +31,12 @@ function Header() {
 
     return (
         <header className='sticky z-20 top-0 shadow-md bg-white'>
+                                {/* Conditionally render <h1> based on scroll */}
+                                {showTitle && <h1 className={`absolute left-[2rem] sm:left-[1rem] py-[.5rem] ${isOpen ? "hidden" : "block"}`}>Chaithawat Pinsuwan</h1>}
             <nav >
 
-                <ul className='flex flex-row justify-end gap-[2rem] px-[2rem] py-[.5rem]  z-20 top-0 '>
-                    {/* Conditionally render <h1> based on scroll */}
-                    {showTitle && <h1 className={`absolute left-[2rem] ${isOpen ? "hidden" : "block"}`}>Chaithawat Pinsuwan</h1>}
+                <ul className='flex flex-row justify-end gap-[2rem] px-[2rem] py-[.5rem]  z-20 top-0 sm:h-[2.5rem] md:h-[2.5rem]'>
+
                     <li className='cursor-pointer md:hidden sm:hidden'>
                         <Link activeClass="active" smooth spy to="Home">
                             Home
@@ -56,15 +57,16 @@ function Header() {
                             Contact
                         </Link>
                     </li>
-                    <div
-                        className={` space-y-2 hidden cursor-pointer  ${isOpen ? "hidden" : "md:block sm:block" }`}
+
+                </ul>
+                <div
+                        className={` space-y-2 hidden cursor-pointer absolute right-[2rem] top-[.5rem]  ${isOpen ? "hidden" : "md:block sm:block" }`}
                         onClick={() => setIsOpen((prev) => !prev)}
                     >
                         <span className="block h-0.5 w-6  bg-black"></span>
                         <span className="block h-0.5 w-6  bg-black"></span>
                         <span className="block h-0.5 w-6  bg-black"></span>
                     </div>
-                </ul>
 
 
                {/* Mobile menu */}
