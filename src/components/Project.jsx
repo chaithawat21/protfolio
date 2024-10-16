@@ -9,7 +9,7 @@ function Project() {
             <div className='grid grid-cols-[repeat(2,_1fr)] md:grid-cols-[1fr] sm:grid-cols-[1fr]  grid-rows-[repeat(2,_1fr)] md:grid-rows-[repeat(3,_1fr)] sm:grid-rows-[repeat(3,_1fr)]  gap-x-[1rem] gap-y-[0px] px-[0rem]' >
                 <div>
                     <h2 className='sm:pl-[1rem]'>Isuzu - X-series 2024</h2>
-                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] relative '>
+                    <div className='w-[560px] h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px] lg:h-[210px] sm:h-[211px] relative '>
                         <ReactPlayer
                             url="https://www.youtube.com/watch?v=71hG0N3FGL4"
                             width="100%"
@@ -19,7 +19,7 @@ function Project() {
                         />
                     </div>
                 </div>
-                <div className='grid grid-cols-[repeat(2,_1fr)] grid-rows-[repeat(2,_1fr)] gap-x-[0px] gap-y-[0px]  w-[560px] sm:w-[375px] sm:h-[210px] mt-[1.5rem]'>
+                <div className='grid grid-cols-[repeat(2,_1fr)] grid-rows-[repeat(2,_1fr)] gap-x-[0px] gap-y-[0px]  w-[560px] lg:w-[375px]  sm:w-[375px] lg:h-[210px]  sm:h-[210px] mt-[1.5rem]'>
                     <img src="/isuzu2024a01.png" alt="a01" />
                     <img src="/isuzu2024a02.png" alt="a02" />
                     <img src="/isuzu2024b01.png" alt="b01" />
@@ -29,7 +29,7 @@ function Project() {
                     {/* <img src="/src/assets/isuzu2024c02.png" alt="c02" />
                     <img src="/src/assets/isuzu2024c01.png" alt="c01" /> */}
                 </div>
-                <div className='grid grid-cols-[repeat(2,_1fr)] grid-rows-[repeat(2,_1fr)] gap-x-[0px] gap-y-[0px]  w-[560px] sm:w-[375px] sm:h-[210px] mt-[1.5rem]'>
+                <div className='grid grid-cols-[repeat(2,_1fr)] grid-rows-[repeat(2,_1fr)] gap-x-[0px] gap-y-[0px]  w-[560px] lg:w-[375px] sm:w-[375px] lg:h-[210px] sm:h-[210px] mt-[1.5rem]'>
                     {/* <img src="/isuzu2024a01.png" alt="a01" />
                     <img src="/isuzu2024a02.png" alt="a02" /> */}
                     {/* <img src="/src/assets/isuzu2024b01.png" alt="b01" />
@@ -45,7 +45,7 @@ function Project() {
             <div className='grid grid-cols-[repeat(2,_1fr)] md:grid-cols-[1fr] sm:grid-cols-[1fr] grid-rows-[repeat(5,_1fr)] md:grid-rows-[repeat(10,_1fr)] sm:grid-rows-[repeat(10,_1fr)]  gap-x-[1rem] gap-y-[1rem]'>
                 <div>
                     <h2 className='sm:pl-[1rem]'>Isuzu - MU-X Phantom Collection 2023</h2>
-                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] relative '>
+                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative '>
                         <ReactPlayer
                             url="https://www.youtube.com/watch?v=hMvsoIK4aBA"
                             width="100%"
@@ -55,7 +55,7 @@ function Project() {
                         />
                     </div>
                 </div>
-                <div className='grid grid-cols-[repeat(2,_1fr)] grid-rows-[repeat(2,_1fr)] gap-x-[0px] gap-y-[0px]   w-[560px] sm:w-[375px] sm:h-[210px] mt-[1.5rem]'>
+                <div className='grid grid-cols-[repeat(2,_1fr)] grid-rows-[repeat(2,_1fr)] gap-x-[0px] gap-y-[0px]   w-[560px] sm:w-[375px] sm:h-[210px] lg:w-[375px] lg:h-[210px] mt-[1.5rem]'>
                     <img src="/isuzu2023a01.jpg" alt="liveshoot-a" />
                     <img src="/isuzu2023b01.jpg" alt="liveshoot-b" />
                     <img src="/isuzu2023e01.jpg" alt="liveshoot-c" />
@@ -63,7 +63,7 @@ function Project() {
                 </div>
                 <div>
                     <h2 className='sm:pl-[1rem]'>OnePlus Open - Open for Everything</h2>
-                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] relative '>
+                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative '>
                         <ReactPlayer
                             url="https://www.youtube.com/watch?v=URbHvaJeQYU"
                             width="100%"
@@ -75,7 +75,7 @@ function Project() {
                 </div>
                 <div>
                     <h2 className='sm:pl-[1rem]'>Downy - Primavera</h2>
-                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] relative '>
+                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative '>
                         <ReactPlayer
                             url="https://vimeo.com/887209848"
                             width="100%"
@@ -87,7 +87,7 @@ function Project() {
                 </div>
                 <div>
                     <h2 className='sm:pl-[1rem]'>BMW i7 - The Protégé</h2>
-                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] relative '>
+                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative '>
                         <ReactPlayer
                             url="https://vimeo.com/887562904"
                             width="100%"
@@ -99,7 +99,7 @@ function Project() {
                 </div>
                 <div>
                     <h2 className='sm:pl-[1rem]'>Mercedes - EQS</h2>
-                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] relative '>
+                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative '>
                         <ReactPlayer
                             url="https://vimeo.com/827900724"
                             width="100%"
@@ -111,7 +111,7 @@ function Project() {
                 </div>
                 <div>
                     <h2 className='sm:pl-[1rem]'>Zhenjiu - Zhen</h2>
-                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] relative '>
+                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative '>
                         <ReactPlayer
                             url="https://vimeo.com/919467683"
                             width="100%"
@@ -123,7 +123,7 @@ function Project() {
                 </div>
                 <div>
                     <h2 className='sm:pl-[1rem]'>Midea - Manual</h2>
-                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] relative '>
+                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative '>
                         <ReactPlayer
                             url="https://vimeo.com/782776942"
                             width="100%"
@@ -135,7 +135,7 @@ function Project() {
                 </div>
                 <div>
                     <h2 className='sm:pl-[1rem]'>Beaufort X Singuila - Au coeur de la fraîcheur</h2>
-                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] relative '>
+                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative '>
                         <ReactPlayer
                             url="https://www.youtube.com/watch?v=g26ueghzkUM"
                             width="100%"
@@ -147,7 +147,7 @@ function Project() {
                 </div>
                 <div>
                     <h2 className='sm:pl-[1rem]'>TaoTao - Cotton</h2>
-                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] relative '>
+                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative '>
                         <ReactPlayer
                             url="https://vimeo.com/753879233"
                             width="100%"
@@ -159,7 +159,7 @@ function Project() {
                 </div>
                 <div>
                     <h2 className='sm:pl-[1rem]'>BMW - Bava Next</h2>
-                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] relative '>
+                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative '>
                         <ReactPlayer
                             url="https://vimeo.com/786181504"
                             width="100%"
@@ -174,7 +174,7 @@ function Project() {
             <div className='grid grid-cols-[repeat(2,_1fr)] md:grid-cols-[1fr] sm:grid-cols-[1fr] grid-rows-[repeat(3,_1fr)]  md:grid-rows-[repeat(6,_1fr)] sm:grid-rows-[repeat(6,_1fr)] gap-x-[1rem] gap-y-[1rem]'>
                 <div>
                     <h2 className='sm:pl-[1rem]'>Isuzu - The new MU-X be UNCHARTED 2022</h2>
-                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] relative '>
+                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative '>
                         <ReactPlayer
                             url="https://www.youtube.com/watch?v=zY1x3ER-p7k"
                             width="100%"
@@ -185,7 +185,7 @@ function Project() {
                     </div>
                 </div>
                 <div className='mt-[1.5rem]'>
-                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] relative '>
+                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative '>
                         <ReactPlayer
                             url="https://www.youtube.com/watch?v=QT7g0Vq_gDc"
                             width="100%"
@@ -197,7 +197,7 @@ function Project() {
                 </div>
                 <div>
                     <h2 className='sm:pl-[1rem]'>FoodPanda - Rider</h2>
-                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] relative '>
+                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative '>
                         <ReactPlayer
                             url="https://vimeo.com/820065111"
                             width="100%"
@@ -209,7 +209,7 @@ function Project() {
                 </div>
                 <div>
                     <h2 className='sm:pl-[1rem]'>Midea - GAIA</h2>
-                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] relative '>
+                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative '>
                         <ReactPlayer
                             url="https://vimeo.com/701592830"
                             width="100%"
@@ -221,7 +221,7 @@ function Project() {
                 </div>
                 <div>
                     <h2 className='sm:pl-[1rem]'>Meituan - New Spokesperson</h2>
-                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] relative '>
+                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative '>
                         <ReactPlayer
                             url="https://vimeo.com/730954325"
                             width="100%"
@@ -233,7 +233,7 @@ function Project() {
                 </div>
                 <div>
                     <h2 className='sm:pl-[1rem]'>TSINGTAO - Smiley</h2>
-                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] relative '>
+                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative '>
                         <ReactPlayer
                             url="https://vimeo.com/685735638"
                             width="100%"
@@ -248,7 +248,7 @@ function Project() {
             <div className='grid grid-cols-[repeat(2,_1fr)] md:grid-cols-[1fr] sm:grid-cols-[1fr] grid-rows-[repeat(3,_1fr)] md:grid-rows-[repeat(6,_1fr)] sm:grid-rows-[repeat(6,_1fr)] gap-x-[1rem] gap-y-[1rem]'>
                 <div>
                     <h2 className='sm:pl-[1rem]'>LEAGUE OF LEGENDS (Mobile game)</h2>
-                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] relative '>
+                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative '>
                         <ReactPlayer
                             url="https://vimeo.com/646766640"
                             width="100%"
@@ -260,7 +260,7 @@ function Project() {
                 </div>
                 <div>
                     <h2 className='sm:pl-[1rem]'>BMW x UBR - BAVA Episode02</h2>
-                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] relative '>
+                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative '>
                         <ReactPlayer
                             url="https://vimeo.com/598701917"
                             width="100%"
@@ -272,7 +272,7 @@ function Project() {
                 </div>
                 <div>
                     <h2 className='sm:pl-[1rem]'>TSINGTAO - Raise the bar!</h2>
-                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] relative '>
+                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative '>
                         <ReactPlayer
                             url="https://vimeo.com/541020715"
                             width="100%"
@@ -284,7 +284,7 @@ function Project() {
                 </div>
                 <div>
                     <h2 className='sm:pl-[1rem]'>Doppel Le Choc Des Puissants</h2>
-                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] relative '>
+                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative '>
                         <ReactPlayer
                             url="https://vimeo.com/544494189"
                             width="100%"
@@ -296,7 +296,7 @@ function Project() {
                 </div>
                 <div>
                     <h2 className='sm:pl-[1rem]'>DSS Magnum Filter - Bersatu Lebih Mantap</h2>
-                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] relative '>
+                    <div className='w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative '>
                         <ReactPlayer
                             url="https://vimeo.com/519812011"
                             width="100%"
