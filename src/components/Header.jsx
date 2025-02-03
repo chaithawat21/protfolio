@@ -30,12 +30,13 @@ function Header() {
     }, []);
 
     return (
-        <header className='sticky z-20 top-0 shadow-md bg-white'>
+        <header className='sticky z-20 top-0 shadow-md bg-black bg-opacity-95'>
                                 {/* Conditionally render <h1> based on scroll */}
-                                {showTitle && <h1 className={`absolute left-[2rem] sm:left-[1rem] py-[.5rem] ${isOpen ? "hidden" : "block"}`}>Chaithawat Pinsuwan</h1>}
+                                {showTitle && <h1 className={`text-white absolute left-[2rem] sm:left-[1rem] py-[.5rem] ${isOpen ? "hidden" : "block"}`}>Chaithawat Pinsuwan</h1>}
+                                {/* <h1 className={`text-white absolute left-[2rem] sm:left-[1rem] py-[.5rem] ${isOpen ? "hidden" : "block"}`}>Chaithawat Pinsuwan</h1> */}
             <nav >
 
-                <ul className='flex flex-row justify-end gap-[2rem] px-[2rem] py-[.5rem]  z-20 top-0 sm:h-[2.5rem] md:h-[2.5rem]'>
+                <ul className='text-white flex flex-row justify-end gap-[2rem] px-[2rem] py-[.5rem]  z-20 top-0 sm:h-[2.5rem] md:h-[2.5rem]'>
 
                     <li className='cursor-pointer md:hidden sm:hidden'>
                         <Link activeClass="active" smooth spy to="Home">
@@ -49,7 +50,7 @@ function Header() {
                     </li>
                     <li className='cursor-pointer md:hidden sm:hidden'>
                         <Link activeClass="active" smooth spy to="About">
-                            Resume
+                            About
                         </Link>
                     </li>
                     <li className='cursor-pointer md:hidden sm:hidden'>
@@ -63,9 +64,9 @@ function Header() {
                         className={` space-y-2 hidden cursor-pointer absolute right-[2rem] top-[.5rem]  ${isOpen ? "hidden" : "md:block sm:block" }`}
                         onClick={() => setIsOpen((prev) => !prev)}
                     >
-                        <span className="block h-0.5 w-6  bg-black"></span>
-                        <span className="block h-0.5 w-6  bg-black"></span>
-                        <span className="block h-0.5 w-6  bg-black"></span>
+                        <span className="block h-0.5 w-6  bg-white"></span>
+                        <span className="block h-0.5 w-6  bg-white"></span>
+                        <span className="block h-0.5 w-6  bg-white"></span>
                     </div>
 
 
@@ -76,7 +77,7 @@ function Header() {
                         onClick={() => setIsOpen(false)}
                     >
                         <svg
-                            className="h-8 w-8 text-black"
+                            className="h-8 w-8 text-white"
                             viewBox="0 0 24 24"
                             fill="none"
                             stroke="currentColor"
@@ -88,20 +89,20 @@ function Header() {
                             <line x1="6" y1="6" x2="18" y2="18" />
                         </svg>
                     </div>
-                    <ul className="flex flex-col items-center justify-start gap-[4rem] pt-[2rem] h-screen">
+                    <ul className="text-white flex flex-col items-center justify-start gap-[4rem] pt-[2rem] h-screen">
                         <li className="cursor-pointer">
                             <Link activeClass="active" smooth spy to="Home" offset={-900} onClick={() => setIsOpen(false)}>
                                 Home
                             </Link>
                         </li>
                         <li className="cursor-pointer">
-                            <Link activeClass="active" smooth spy to="Projects" offset={-850} onClick={() => setIsOpen(false)}>
+                            <Link activeClass="active" smooth spy to="Projects" offset={-750} onClick={() => setIsOpen(false)}>
                                 Projects
                             </Link>
                         </li>
                         <li className="cursor-pointer">
-                            <Link activeClass="active" smooth spy to="About" offset={-800} onClick={() => setIsOpen(false)}>
-                                Resume
+                            <Link activeClass="active" smooth spy to="About" offset={-700} onClick={() => setIsOpen(false)}>
+                                About
                             </Link>
                         </li>
                         <li className="cursor-pointer">
