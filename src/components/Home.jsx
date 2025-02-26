@@ -1,10 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ReactPlayer from "react-player";
 import { motion } from "framer-motion";
 
 function Home() {
   const [isLoading, setIsLoading] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
 
+useEffect(() => {
+  const timer = setTimeout(() => setIsPlaying(true), 2000); // Delay autoplay by 2 seconds
+  return () => clearTimeout(timer);
+}, []);
+
+  
   const handleOnReady = () => {
     setIsLoading(false); // Hide loader once the video is ready
   };
@@ -36,14 +43,14 @@ function Home() {
         ) : null}
 
 <ReactPlayer
-    url="https://vimeo.com/1013053963"
+    url="https://player.vimeo.com/video/1013053963"
     width="100%"
     height="100%"
     title="REEL 2024"
     frameBorder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     loading="lazy"
-    playing={true}
+    playing={isPlaying}
     muted={true}
     loop={true}  // Loop the video
     onReady={handleOnReady} // Fires when the video is ready

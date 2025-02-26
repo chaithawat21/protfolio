@@ -12,7 +12,7 @@ function Project() {
 
       <div className="grid grid-cols-[repeat(2,_1fr)] md:grid-cols-[1fr] sm:grid-cols-[1fr]  grid-rows-[repeat(3,_1fr)] md:grid-rows-[repeat(3,_1fr)] sm:grid-rows-[repeat(3,_1fr)]  gap-x-[1rem] gap-y-[0px] px-[0rem]">
         <div>
-          <h2 className="text-white sm:pl-[1rem]">Ponds 2025</h2>
+          <h2 className="text-white sm:pl-[1rem]">POND'S UV Miracle 2025</h2>
           <div className="w-[560px] h-[315px] lg:w-[375px] md:w-[560px] sm:w-[375px] lg:h-[210px] sm:h-[211px] relative ">
             <ReactPlayer
               url="https://www.youtube.com/watch?v=OzHEV5V2-R0"
@@ -103,9 +103,14 @@ function Project() {
           <img src="/isuzu2024c02.png" alt="c02" />
           <img src="/isuzu2024c01.png" alt="c01" />
         </div>
+        <div className="grid grid-cols-[repeat(1,_1fr)] grid-rows-[repeat(1,_1fr)] gap-x-[0px] gap-y-[0px]  w-[560px] lg:w-[375px] sm:w-[375px] lg:h-[210px] sm:h-[210px] mt-[1.5rem]">
+
+          <img src="/isuzu2024website.png" alt="website" />
+
+        </div>
       </div>
       <h1 className="text-white text-[2rem] font-[300] mt-[5rem]">2023</h1>
-      <div className="grid grid-cols-[repeat(2,_1fr)] md:grid-cols-[1fr] sm:grid-cols-[1fr] grid-rows-[repeat(5,_1fr)] md:grid-rows-[repeat(10,_1fr)] sm:grid-rows-[repeat(10,_1fr)]  gap-x-[1rem] gap-y-[1rem]">
+      <div className="grid grid-cols-[repeat(2,_1fr)] md:grid-cols-[1fr] sm:grid-cols-[1fr] grid-rows-[repeat(7,_1fr)] md:grid-rows-[repeat(10,_1fr)] sm:grid-rows-[repeat(10,_1fr)]  gap-x-[1rem] gap-y-[1rem]">
         <div>
           <h2 className="text-white sm:pl-[1rem]">
             Isuzu - MU-X Phantom Collection 2023
@@ -235,6 +240,42 @@ function Project() {
               height="100%"
               controls
               title="BMW - Bava Next"
+            />
+          </div>
+        </div>
+        <div>
+          <h2 className="text-white sm:pl-[1rem]">The mill 2023</h2>
+          <div className="w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative ">
+            <ReactPlayer
+              url="https://youtu.be/hxu1zTco8-I"
+              width="100%"
+              height="100%"
+              controls
+              title="The mill"
+            />
+          </div>
+        </div>
+        <div>
+          <h2 className="text-white sm:pl-[1rem]">Invitation to a Murder 2023</h2>
+          <div className="w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative ">
+            <ReactPlayer
+              url="https://youtu.be/B_HOii1vVg8"
+              width="100%"
+              height="100%"
+              controls
+              title="Invitation to a Murder"
+            />
+          </div>
+        </div>
+        <div>
+          <h2 className="text-white sm:pl-[1rem]">Work Later, Drink Now 2 EP2</h2>
+          <div className="w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative ">
+            <ReactPlayer
+              url="https://youtu.be/xu_7z8ix-PY"
+              width="100%"
+              height="100%"
+              controls
+              title="Work Later, Drink Now 2"
             />
           </div>
         </div>
@@ -387,9 +428,24 @@ function Project() {
             />
           </div>
         </div>
+        <div>
+          <h2 className="text-white sm:pl-[1rem]">
+            Bashira 2021
+          </h2>
+          <div className="w-[560px] h-[315px] md:w-[560px] sm:w-[375px] sm:h-[211px] lg:w-[375px] lg:h-[211px] relative ">
+            <ReactPlayer
+              url="https://youtu.be/8VMKdIFknD8"
+              width="100%"
+              height="100%"
+              controls
+              title="Bashira"
+            />
+          </div>
+        </div>
       </div>
     </section>
   );
 }
+
 
 export default Project;
