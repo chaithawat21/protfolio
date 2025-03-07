@@ -33,9 +33,9 @@ function Home() {
       <h1 className="text-white text-[3rem] font-[400] absolute z-10 top-[4rem] sm:text-[2rem] sm:top-[3.5rem]">
         CHAITHAWAT PINSUWAN
       </h1>
-      <p className="text-white text-[1.915rem] font-[100] absolute z-10 top-[7rem] sm:text-[1.275rem] sm:top-[5.5rem]">
+      {/* <p className="text-white text-[1.915rem] font-[100] absolute z-10 top-[7rem] sm:text-[1.275rem] sm:top-[5.5rem]">
         Art Director / Motion Graphic / Compositor
-      </p>
+      </p> */}
 
       <div className="w-screen h-screen relative">
         {isLoading ? (
